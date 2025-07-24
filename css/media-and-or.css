@@ -9,3 +9,56 @@
         background-color: lightgreen;
     }
 }
+
+/* =====================================================
+   🌐 Media Queries Base – Diseño Responsive (Mobile First)
+   ===================================================== */
+
+/* 🎯 Estilos base para móviles (Mobile First) 
+   Aplica a todos los dispositivos por debajo del primer breakpoint */
+body {
+  font-size: 16px;
+  background-color: white;
+}
+
+
+/* 📱 Móviles pequeños (hasta 480px) */
+@media (max-width: 480px) {
+  /* Estilos para smartphones muy pequeños */
+}
+
+
+/* 📱 Móviles medianos (hasta 600px) */
+@media (max-width: 600px) {
+  /* Estilos para móviles estándar */
+}
+
+
+/* 📲 Tablets verticales (601px a 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+  /* Estilos para tablets en orientación vertical */
+}
+
+
+/* 🔄 Tablets horizontales / dispositivos medianos (769px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para tablets en orientación horizontal o laptops pequeños */
+}
+
+
+/* 💻 Laptops / Desktops (desde 1025px) */
+@media (min-width: 1025px) {
+  /* Estilos para laptops y monitores de escritorio estándar */
+}
+
+
+/* 🖥️ Pantallas grandes (desde 1200px) */
+@media (min-width: 1200px) {
+  /* Estilos para monitores grandes */
+}
+
+
+/* 🖥️ Ultra-wide (desde 1440px o más) */
+@media (min-width: 1440px) {
+  /* Estilos para pantallas muy grandes o 4K */
+}
